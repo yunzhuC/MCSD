@@ -1,11 +1,10 @@
 # Multi-consistency for Semi-Supervised medical image segmentation with Diffusion Models
-by Yunzhu Chen
 
 ## Introduction
 This repository is the Pytorch implementation of "Multi-consistency for Semi-Supervised medical image segmentation with Diffusion Models"
 
 ## Requirements
-We implemented our experiment on the super parallel computer system of Guangxi University. The specific configuration is as follows:
+We implemented our experiment on the super-parallel computer system of Guangxi University. The specific configuration is as follows:
 * Centos 7.4
 * NVIDIA Tesla V100 32G
 * Intel Xeon gold 6230 2.1G 20C processor
