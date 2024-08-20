@@ -11,12 +11,11 @@ We implemented our experiment on the super-parallel computer system of Guangxi U
 
 
 # Dataset
-Please modify your dataset path in configuration files.
-
-*ACDC
+Please modify your dataset path in the configuration files.
+* ACDC
 https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html |
 https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC
-*M&Ms
+* M&Ms
 https://www.ub.edu/mnms
 
 # Usage
