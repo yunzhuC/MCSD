@@ -4,7 +4,6 @@ import subprocess
 import torch
 import torch.distributed as dist
 
-# 分布式训练
 def setup_distributed(backend="nccl", port=None):
     """AdaHessian Optimizer
     Lifted from https://github.com/BIGBALLON/distribuuuu/blob/master/distribuuuu/utils.py
