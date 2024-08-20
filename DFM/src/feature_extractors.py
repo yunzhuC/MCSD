@@ -117,8 +117,6 @@ class FeatureExtractorDDPM(FeatureExtractor):
 
 def collect_features(args, activations: List[torch.Tensor], sample_idx=0):
     """ Upsample activations and concatenate them to form a feature tensor
-        将提取的激活值进行上采样，并沿指定维度进行拼接，形成一个特征张量。
-        给定参数：
       "dim": [256, 256, 128], "upsample_mode":"bilinear",
     """
     assert all([isinstance(acts, torch.Tensor) for acts in activations])
