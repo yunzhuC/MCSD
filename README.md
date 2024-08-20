@@ -13,7 +13,7 @@ We implemented our experiment on the super-parallel computer system of Guangxi U
 
 1. Clone the repo:
 ```
-git clone https://github.com/chenyzzz/MCSD.git
+git clone git@github.com:yunzhuC/MCSD.git
 cd MCSD
 ```
 
