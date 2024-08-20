@@ -26,12 +26,12 @@ git clone git@github.com:yunzhuC/MCSD.git
 cd MCSD
 ```
 
-2.. Train the model
+2. Train the model
 ```
 python train.py
 ```
 
-4. Test the model
+3. Test the model
 ```
 python test.py
 ```
