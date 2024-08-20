@@ -9,6 +9,14 @@ We implemented our experiment on the super-parallel computer system of Guangxi U
 * NVIDIA Tesla V100 32G
 * Intel Xeon gold 6230 2.1G 20C processor
 
+
+# Datasets
+ACDC
+https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html
+https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC
+M&Ms
+https://www.ub.edu/mnms
+
 # Usage
 
 1. Clone the repo:
