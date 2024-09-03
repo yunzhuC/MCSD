@@ -22,19 +22,6 @@ https://www.ub.edu/mnms
 
 Our mode shows a significant improvement in segmentation performance while keeping an acceptable increase of parameter number and a competitive per-image inference time against other SOTA methods. Specifically, we offer a feature dimensionality reduction optimization strategy to control the growth in the number of parameters while also improving the model's training and inference efficiency. This method not only effectively minimizes the number of parameters, but also assures that our model's prediction time per image does not increase much when compared to other models. We intend to optimize the model structure further to reduce the number of parameters while maintaining or improving segmentation performance..
 
-
-Method	Parameters (M)	Prediction time 
-per image (s)
-UA-MT [23]	1.81	0.48
-URPC [37]	1.81	0.48
-CPS [38]	1.81	0.48 
-CNN & Trans [33]	1.81	0.48
-MC-NET+ [26]	2.58	0.53 
-BCP [28]	1.81	0.65 
-Ours	3.63	0.55 
-
-
-
 | Method                      | Parameters (M) | Prediction time per image (s) |
 | :-------------------------: | :-------: | :-------: |
 | UA-MT                 | 1.81      | 0.48      | 
@@ -44,8 +31,6 @@ Ours	3.63	0.55
 | MC-NET+             | 2.58      | 0.53      |    
 | BCP                        | 1.81      | 0.65      | 
 | **Ours**         | **3.63**  | **0.55**  |    
-
-
 
 ## Usage
 
