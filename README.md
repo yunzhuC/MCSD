@@ -20,7 +20,7 @@ https://www.ub.edu/mnms
 
 ## Comparison of network complexity with other methods
 
-Our mode shows a significant improvement in segmentation performance while keeping an acceptable increase of parameter number and a competitive per-image inference time against other SOTA methods. Specifically, we offer a feature dimensionality reduction optimization strategy to control the growth in the number of parameters while also improving the model's training and inference efficiency. This method not only effectively minimizes the number of parameters, but also assures that our model's prediction time per image does not increase much when compared to other models. We intend to optimize the model structure further to reduce the number of parameters while maintaining or improving segmentation performance.
+Our mode shows a significant improvement in segmentation performance while keeping an acceptable increase of parameter number and a competitive per-image inference time against other SOTA methods. We intend to optimize the model structure further to reduce the number of parameters while maintaining or improving segmentation performance.
 
 | Method                      | Parameters (M) | Prediction time per image (s) |
 | :-------------------------: | :-------: | :-------: |
