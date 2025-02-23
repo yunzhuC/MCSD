@@ -18,20 +18,6 @@ https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC
 * M&Ms: 
 https://www.ub.edu/mnms
 
-## Comparison of network complexity with other methods
-
-Our mode shows a significant improvement in segmentation performance while keeping an acceptable increase of parameter number and a competitive per-image inference time against other SOTA methods. We intend to optimize the model structure further to reduce the number of parameters while maintaining or improving segmentation performance.
-
-| Method                      | Parameters (M) | Prediction time per image (s) |
-| :-------------------------: | :-------: | :-------: |
-| UA-MT                 | 1.81      | 0.48      | 
-| URPC             | 1.81      | 0.48      | 
-| CPS             | 1.81     | 0.48     |       
-| CNN & Trans             | 1.81| 0.48|      
-| MC-NET+             | 2.58      | 0.53      |    
-| BCP                        | 1.81      | 0.65      | 
-| **Ours**         | **3.63**  | **0.55**  |    
-
 ## Usage
 
 1. Clone the repo:
